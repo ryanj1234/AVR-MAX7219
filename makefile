@@ -70,8 +70,7 @@ FORMAT = ihex
 
 
 # Target file name (without extension).
-TARGET = main
-
+TARGET = MAX7219
 
 # Object files directory
 #     To put object files in current directory, use a dot (.), do NOT make
