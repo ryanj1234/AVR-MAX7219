@@ -180,16 +180,14 @@ void sweep_string(const char *c)
     }
 }
 
-// int main(void)
-// {
-//     MAX7219_default_init();
-//     MAX7219_set_codeb(0x00);
-//     MAX7219_clear_display_none();
-//
-//     while(1)
-//     {
-//         sweep_string("ASS");
-//         sweep_string("8oo8S");
-//         sweep_string("8utt");
-//     }
-// }
+int main(void)
+{
+    MAX7219_default_init();
+    MAX7219_set_codeb(0x00);
+    MAX7219_clear_display_none();
+
+    while(1)
+    {
+        sweep_string("HELLO");
+    }
+}
