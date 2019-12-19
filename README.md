@@ -12,5 +12,5 @@ There are two types of coding - BCD code B (0-9, E, H, L, P and -) or no decodin
 MAX7219_set_codeb(0x00);
 
 // all codeb
-MAX7219_set_codeb(0x00);
+MAX7219_set_codeb(0xFF);
 ```
